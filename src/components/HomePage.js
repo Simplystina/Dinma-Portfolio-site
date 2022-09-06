@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import {Box, Button, ButtonGroup, Flex, HStack, Text} from "@chakra-ui/react"
+import React from 'react'
+import {Box, Button, HStack, Text} from "@chakra-ui/react"
 import {BsTwitter, BsGithub, BsLinkedin} from "react-icons/bs"
 
 const HomePage = () => {

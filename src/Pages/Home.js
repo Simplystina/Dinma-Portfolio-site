@@ -1,6 +1,5 @@
 import React,{useEffect} from 'react'
-import {Box, Button, ButtonGroup, Flex, HStack, Text} from "@chakra-ui/react"
-import {BsTwitter, BsGithub, BsLinkedin} from "react-icons/bs"
+import {Box, Flex, HStack, Text} from "@chakra-ui/react"
 import { NavLink, Outlet } from 'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css";

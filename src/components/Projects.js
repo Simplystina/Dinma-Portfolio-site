@@ -1,6 +1,5 @@
 import { Box, HStack, Img, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
-import pic from "../images/tracker-website.JPG"
 import {BsFillEyeFill,BsGithub} from "react-icons/bs"
 import { data } from './data'
 

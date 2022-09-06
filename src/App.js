@@ -1,4 +1,4 @@
-import { Center, Flex } from '@chakra-ui/react'
+import {Flex } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import {Routes, Route, BrowserRouter as Router} from 'react-router-dom'
 import About from './components/About'

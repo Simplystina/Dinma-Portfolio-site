@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import { Box, HStack, Text , Button, Center} from '@chakra-ui/react'
 import {BsWhatsapp} from "react-icons/bs"
 import {MdLocationOn} from "react-icons/md"
