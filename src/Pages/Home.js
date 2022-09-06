@@ -30,7 +30,7 @@ const Home = () => {
             </HStack>
         </Flex>
         
-        <Box  mb="100px">
+        <Box >
             <Outlet/>
         </Box>
         <Flex className='footer_navbar' display={["flex", "none"]} pos="fixed" bottom={0} w="100%" p={["20px 20px","20px 50px","20px 80px"]} fontWeight="900" fontSize={[20, 30]} bg="#10c6bb" justifyContent="space-between">

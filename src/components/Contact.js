@@ -15,7 +15,7 @@ const Contact = () => {
       
 
   return (
-    <Box m="20px 20px">
+    <Box m="20px 20px 100px 20px">
         <Text textAlign="center" fontSize={[20, 25, 30]} fontWeight="500" color="#10c6bb">Get in Touch</Text>
         <Text data-aos="zoom-in" data-aos-duration="2000" textAlign="center" m="40px auto" maxW="700px" fontFamily="FreeMono, monospace" color="white" fontSize={[12, 14]}>Hi, thank you for stopping by. Do you have any project in mind? Come let's make that a reality.
             My inbox is always open for a quick chat, feel free to stop by.

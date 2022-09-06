@@ -6,7 +6,7 @@ import { data } from './data'
 //data-aos="fade-up"
 const Projects = () => {
   return (
-    <Box p="20px 0" m={["20px 20px","20px 30px","20px 50px","20px 80px","20px 100px"]}>
+    <Box p="20px 0" m={["20px 20px 100px 20px","20px 30px 100px 30px","20px 50px 100px 50px","20px 80px 100px 80px","20px 100px 100px 100px"]}>
         <Text textAlign="center" fontSize={[20, 25, 30]} fontWeight="500" color="#10c6bb">Projects</Text>
         <SimpleGrid  columns={[1,null, 2,3]} m={["30px 0 0 0","60px 0 0 0","100px 0 0 0"]} spacing={[5,10]}>
             {
