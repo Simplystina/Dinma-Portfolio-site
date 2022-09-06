@@ -8,6 +8,7 @@ import Loader from './components/Loader/Loader'
 import Projects from './components/Projects'
 import Home from './Pages/Home'
 
+
 const App = () => {
 
   const [loading, setLoading] = useState(true)

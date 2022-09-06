@@ -15,9 +15,7 @@ body {
 }
 }
 .name-effect{
-   text-align: center;
     align-items: center;
-    font-size: 36px;
     text-transform: uppercase;
     font-weight: 700;
     background: linear-gradient(to right, #e72a3a, blue,  #10c6bb, rgb(234, 5, 234));
@@ -35,6 +33,7 @@ aa{
 .nav_link{
   transition: all 0.5s linear;
   width: 100%;
+  font-weight: 800;
  
 }
 
@@ -56,4 +55,32 @@ aa{
     1px 22px 10px rgba(16,16,16,0.2),
     1px 25px 35px rgba(16,16,16,0.2),
     1px 30px 60px rgba(16,16,16,0.4);
+}
+
+h1, .text {
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+   .nav_link_container{
+    display: none !important;
+
+   }
+   .footer_navbar{
+    display: flex !important;
+   }
 }
