@@ -74,7 +74,9 @@ const HomePage = () => {
         }
 
     
-
+        document.addEventListener("DOMContentLoaded", function(event) {
+            console.log("DOM fully loaded and parsed");
+        });
 
 
   return (
@@ -85,9 +87,9 @@ const HomePage = () => {
                 <span class="wrap"></span>
             </Text>
             <Text fontSize={[10, 12, 14]} textAlign={["left","center"]} color="grey" >Frontend Developer | Women in Tech Advocate | Software Engineer</Text>
-            <HStack m="40px 0 30px 0" spacing={[5,10]} justify="center">
-                <Button fontSize={[12, 14,16]} data-aos="fade-up-right" data-aos-duration="1000"  onClick={openMail} borderRadius={10} w={["100px", "150px", "200px"]} h="50px" bg="transparent"  border="1px solid #10c6bb" color="#10c6bb">Get in Touch</Button>
-                <a fontSize={[12, 14,16]} data-aos="fade-up-left" data-aos-duration="1000"  target="_blank"  href="https://drive.google.com/file/d/14iTdeZDSTgQG0t0urYgRRkUVngqquAvb/view?usp=sharing"><Button borderRadius={10}  w={["100px", "150px", "200px"]}  h="50px" fontSize="15px" bg="transparent"  border="1px solid #10c6bb" color="#10c6bb">Resume</Button></a>
+            <HStack m={["20px 0 10px 0","40px 0 30px 0"]} spacing={[2,5,10]} justify="center">
+                <Button fontSize={[10, 12, 14,16]} data-aos="fade-up-right" data-aos-duration="1000"  onClick={openMail} borderRadius={[5, 10]} w={["80px","100px", "150px", "200px"]} h="50px" bg="transparent"  border="1px solid #10c6bb" color="#10c6bb">Get in Touch</Button>
+                <a fontSize={[10, 12, 14,16]} data-aos="fade-up-left" data-aos-duration="1000"  target="_blank"  href="https://drive.google.com/file/d/14iTdeZDSTgQG0t0urYgRRkUVngqquAvb/view?usp=sharing"><Button borderRadius={[5,10]}  w={["80px","100px", "150px", "200px"]}  h="50px" fontSize="15px" bg="transparent"  border="1px solid #10c6bb" color="#10c6bb">Resume</Button></a>
             </HStack> 
             <HStack   m={[10, 20]} spacing={10} fontSize={[20,30]} justify="center" color="#10c6bb">
                 <a href="https://twitter.com/chidinmaCode"><BsTwitter/></a>

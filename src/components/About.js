@@ -14,7 +14,7 @@ import pic from "../images/Pic.jpg"
 const About = () => {
   return (
     <Box mt="20px">
-        <Text textAlign="center" fontSize="30px" fontWeight="500" color="#10c6bb">About me</Text>
+        <Text textAlign="center" fontSize={[20, 25, 30]} fontWeight="500" color="#10c6bb">About me</Text>
         <Flex m={["20px 30px", "20px 50px",null,"20px 100px"]} justifyContent="space-between" flexDir={["column", null,"row", "row"]}>
             <Box  data-aos-easing="ease-out-cubic" data-aos-duration="1000"   boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px"  borderRadius={10} h="400px" w={["100%", null, "35%"]}>
                 <Img w="100%" borderRadius={10} h="100%" objectFit="cover" src={pic} alt="my_picture"/>

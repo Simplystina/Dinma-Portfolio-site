@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <Box pos="relative" bg="black" h="100vh" overflowX="hidden" overflowY="scroll" >
         <Flex p={["30px 50px", "30px 30px", "30px 80px"]} justifyContent="space-between" borderBottom="1px solid grey" borderTop="2px solid #10c6bb">
-            <Text data-aos="zoom-in-up" data-aos-duration="3000" fontSize={20} className="name_icon">Dinma</Text>
+            <Text data-aos="zoom-in-up" data-aos-duration="3000" fontSize={[15,20]} className="name_icon">Dinma</Text>
             <HStack className='nav_link_container' display={["none", "Flex"]} data-aos="fade-left" color="#10c6bb" fontSize={[14, 16, 20]} fontWeight="500" spacing={[10,10, 10, 20]}>
                 <NavLink className="nav_link" to="/" style={({ isActive }) => ({ borderBottom: isActive? "1px solid white" :"none", color: isActive? "white": "#10c6bb"})}>
                     <Text>Home</Text>
@@ -33,7 +33,7 @@ const Home = () => {
         <Box  mb="100px">
             <Outlet/>
         </Box>
-        <Flex className='footer_navbar' display={["flex", "none"]} pos="fixed" bottom={0} w="100%" p={["20px 30px","20px 50px","20px 80px"]} fontWeight="900" fontSize={[30,30]} bg="#10c6bb" justifyContent="space-between">
+        <Flex className='footer_navbar' display={["flex", "none"]} pos="fixed" bottom={0} w="100%" p={["20px 20px","20px 50px","20px 80px"]} fontWeight="900" fontSize={[20, 30]} bg="#10c6bb" justifyContent="space-between">
             <NavLink style={({ isActive }) => ({ color: isActive? "black": "white"})} to="/"><AiFillHome/></NavLink>
             <NavLink style={({ isActive }) => ({ color: isActive? "black": "white"})} to="about"><BsFillFilePersonFill/></NavLink>
             <NavLink style={({ isActive }) => ({ color: isActive? "black": "white"})} to="project"><FaLaptop/></NavLink>
