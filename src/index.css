@@ -90,3 +90,107 @@ span {
     font-size: 16px !important;
   }
 }
+
+
+
+
+@keyframes cursor {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+  90%, to {
+    width: 0;
+  }
+}
+@keyframes slide {
+  33.3333333333% {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  to {
+    font-size: 0;
+    letter-spacing: 0;
+  }
+}
+.typing-slider {
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  margin: 20px;
+}
+
+.typing-slider p {
+  position: relative;
+  display: inline;
+  font-size: 0;
+  letter-spacing: 0;
+  animation: slide 15s step-start infinite;
+  color: white;
+}
+
+.typing-slider p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-left: 3px solid black;
+ 
+}
+
+.typing-slider p:nth-child(1) {
+  animation-delay: 0s;
+}
+.typing-slider p:nth-child(1)::after {
+  animation-delay: 0s;
+  animation-timing-function: steps(16), step-end;
+}
+
+.typing-slider p:nth-child(2) {
+  animation-delay: 5s;
+}
+.typing-slider p:nth-child(2)::after {
+  animation-delay: 5s;
+  animation-timing-function: steps(23), step-end;
+}
+
+.typing-slider p:nth-child(3) {
+  animation-delay: 10s;
+}
+.typing-slider p:nth-child(3)::after {
+  animation-delay: 10s;
+  animation-timing-function: steps(12), step-end;
+}
+
+@media screen and (max-width:350px) {
+  @keyframes slide {
+    33.3333333333% {
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+    to {
+      font-size: 0;
+      letter-spacing: 0;
+    }
+  }
+  .typing-slider {
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+    margin: 15px;
+  }
+}
+@media screen and (max-width:250px) {
+  .button-container{
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+}

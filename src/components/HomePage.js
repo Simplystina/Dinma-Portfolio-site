@@ -83,13 +83,17 @@ const HomePage = () => {
        <Box p={["30px 20px","30px"]}>
             <Text fontSize={["14px", "16px"]} data-aos="fade-down" mt="40px"  mb="30px" color="white" textAlign={["left","center"]}>Hello 👋 , my name is </Text>
             <Text textAlign={["left","center"]} fontSize={["16px", "20px","25px","30px","36px"]} data-aos="zoom-in-up" data-aos-duration="3000" className='name-effect' >Chidinma Nwatu. <span style={{fontStyle: "italic", background:"transparent", fontFamily: 'Brush Script MT, cursive', textTransform:"none"}}>fondly called Dinma</span></Text>
-            <Text m="30px" color="#fff" fontWeight="600" fontSize={["16px","18px","25px"]} textAlign={["left","center"]} className="typewrite" data-period="2000" data-type='[ "iCode . iDesign . iCreate .", "I implement beautiful designs.", "I develop apps .", "I create beautiful things ." ]'>
-                <span class="wrap"></span>
-            </Text>
+            
+
+            <Box className="typing-slider">
+                <p>iCode . iDesign . iCreate .</p>
+                <p>iImplement beautiful designs.</p>
+                <p>iDevelop cool applications.</p>
+            </Box>
             <Text fontSize={[10, 12, 14]} textAlign={["left","center"]} color="grey" >Frontend Developer | Women in Tech Advocate | Software Engineer</Text>
-            <HStack m={["20px 0 10px 0","40px 0 30px 0"]} spacing={[2,5,10]} justify="center">
-                <Button fontSize={[10, 12, 14,16]} data-aos="fade-up-right" data-aos-duration="1000"  onClick={openMail} borderRadius={[5, 10]} w={["80px","100px", "150px", "200px"]} h="50px" bg="transparent"  border="1px solid #10c6bb" color="#10c6bb">Get in Touch</Button>
-                <a fontSize={[10, 12, 14,16]} data-aos="fade-up-left" data-aos-duration="1000"  target="_blank"  href="https://drive.google.com/file/d/14iTdeZDSTgQG0t0urYgRRkUVngqquAvb/view?usp=sharing"><Button borderRadius={[5,10]}  w={["80px","100px", "150px", "200px"]}  h="50px" fontSize="15px" bg="transparent"  border="1px solid #10c6bb" color="#10c6bb">Resume</Button></a>
+            <HStack className='button-container' m={["30px 0 10px 0","40px 0 30px 0"]} spacing={[5,10]} justify={["space-between","center"]}>
+                <Button fontSize={[10, 12, 14,16]} data-aos="fade-up-right" data-aos-duration="1000"  onClick={openMail} borderRadius={[5, 10]} w={["100px","150px", "200px"]} h="50px" bg="transparent"  border="1px solid #10c6bb" color="#10c6bb">Get in Touch</Button>
+                <a fontSize={[10, 12, 14,16]} data-aos="fade-up-left" data-aos-duration="1000"  target="_blank"  href="https://drive.google.com/file/d/14iTdeZDSTgQG0t0urYgRRkUVngqquAvb/view?usp=sharing"><Button borderRadius={[5,10]}  w={["100px","150px", "200px"]}  h="50px" fontSize="15px" bg="transparent"  border="1px solid #10c6bb" color="#10c6bb">Resume</Button></a>
             </HStack> 
             <HStack   m={[10, 20]} spacing={10} fontSize={[20,30]} justify="center" color="#10c6bb">
                 <a href="https://twitter.com/chidinmaCode"><BsTwitter/></a>

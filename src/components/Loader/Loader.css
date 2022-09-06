@@ -129,3 +129,13 @@
     to {
       transform: rotateY(1turn); } }
   
+
+
+  @media screen and (max-width:350px) {
+
+    .preloader{
+      width: 15em;
+      height: 15em; 
+    }
+    
+  }
