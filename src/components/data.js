@@ -5,6 +5,7 @@ import gpt3 from "../images/gp3-website.JPG"
 import movie from "../images/movie-website.JPG"
 import space from "../images/space-tourism-website.JPG"
 import tracker from "../images/tracker-website.JPG"
+import amnid from "../images/amnid-website.JPG"
 
 export const data = [
     {
@@ -19,7 +20,16 @@ export const data = [
       tools: `React + CSS + API's`
     },
     {
-        id: "2",
+      id: "2",
+    title :"AmNiD" ,
+    img:amnid,
+    content :`AmNiD is an online platform that utilizes the identity pass API to guarantee the security of online transactions, by making it possible for customers to have their identity verified, for customers to search for verified vendors using the vendor's unique id and be able to rate a vendor and give reviews.`,
+    github:"https://github.com/Simplystina/Prembly-Hack-AmNiD-App",
+    live:"https://amnid.vercel.app/",
+    tools: `Next js + Chakra UI + Flask, using PostgreSQL as its database`
+  },
+    {
+        id: "3",
         title :"Space Tourist Website" ,
         img: space,
         content :`A space tourist website for space travellers.
@@ -28,16 +38,7 @@ export const data = [
         live:"https://space-tourism-webapp.netlify.app/",
         tools: `React + AOS + CSS`
       },
-      {
-        id: "3",
-        title:"Github Users App",
-        img: github,
-        content:`A web app that displays github details of
-        any username entered1`,
-        github: "https://github.com/Simplystina/github-users-app",
-        live:"https://githubappusers.netlify.app/",
-        tools:"Auth0 + React + CSS"
-      },
+      
       {
         id:"4",
         title: "Debtfix",
@@ -64,7 +65,17 @@ export const data = [
         github: "https://github.com/Simplystina/Gp3AI-project",
     },
     {
-        id: "7",
+      id: "7",
+      title:"Github Users App",
+      img: github,
+      content:`A web app that displays github details of
+      any username entered1`,
+      github: "https://github.com/Simplystina/github-users-app",
+      live:"https://githubappusers.netlify.app/",
+      tools:"Auth0 + React + CSS"
+    },
+    {
+        id: "8",
         title: "Cryptoverse",
         img: crypto,
         content: `A webapp that displays recent news about coins in the crypto market`,
