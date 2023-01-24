@@ -1,6 +1,5 @@
 import crypto from "../images/crypto-website.JPG"
 import debtfix from "../images/debtfix-website.JPG"
-import github from "../images/github-users-website.JPG"
 import gpt3 from "../images/gp3-website.JPG"
 import movie from "../images/movie-website.JPG"
 import space from "../images/space-tourism-website.JPG"
