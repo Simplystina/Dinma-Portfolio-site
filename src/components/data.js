@@ -6,8 +6,28 @@ import movie from "../images/movie-website.JPG"
 import space from "../images/space-tourism-website.JPG"
 import tracker from "../images/tracker-website.JPG"
 import amnid from "../images/amnid-website.JPG"
+import blog from "../images/blog-api.jpg"
+import kanban from "../images/Kanban-app.JPG"
 
 export const data = [
+  {
+      id: "9",
+     title :"Blog API" ,
+     img: blog,
+     content :`A Blog API that include full blog CRUD operations, authentication of users and authorization of authenticated users`,
+     github:"https://github.com/Simplystina/Blogging_API-Alt-School-Project",
+     documentation:"https://documenter.getpostman.com/view/19697282/2s8ZDbX1Za",
+     tools: `Nodejs + express + Passport + MongoDb`
+   },
+   {
+    id: "10",
+     title :"KanBan Task API" ,
+     img: kanban,
+     content :`Kanban is a web app that allow users to create boards for tasks, create tasks inside each board, keep track and update task status, add registered collaborators to a board to contribute to a task, allow authentication of users and authorization of authenticated users.`,
+     github:"https://github.com/Simplystina/KanBan-App-API",
+     documentation:"https://documenter.getpostman.com/view/19697282/2s8Z73zWpp",
+     tools: `Nodejs + express + Passport + MongoDb`
+    },
     {
         id: "1",
       title :"Tracker" ,
@@ -23,7 +43,8 @@ export const data = [
       id: "2",
     title :"AmNiD" ,
     img:amnid,
-    content :`AmNiD is an online platform that utilizes the identity pass API to guarantee the security of online transactions, by making it possible for customers to have their identity verified, for customers to search for verified vendors using the vendor's unique id and be able to rate a vendor and give reviews.`,
+    content :`AmNiD is an online platform that utilizes the identity pass API to guarantee the security of online transactions, by making it possible for customers to have their identity verified, search for verified vendors using an id, rate vendor and give reviews.
+    `,
     github:"https://github.com/Simplystina/Prembly-Hack-AmNiD-App",
     live:"https://amnid.vercel.app/",
     tools: `Next js + Chakra UI + Flask, using PostgreSQL as its database`
@@ -63,16 +84,6 @@ export const data = [
         content: "The landing page of a gp3 AI website",
         live: "https://gp3-site.netlify.app/",
         github: "https://github.com/Simplystina/Gp3AI-project",
-    },
-    {
-      id: "7",
-      title:"Github Users App",
-      img: github,
-      content:`A web app that displays github details of
-      any username entered1`,
-      github: "https://github.com/Simplystina/github-users-app",
-      live:"https://githubappusers.netlify.app/",
-      tools:"Auth0 + React + CSS"
     },
     {
         id: "8",

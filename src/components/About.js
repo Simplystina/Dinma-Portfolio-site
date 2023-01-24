@@ -22,8 +22,8 @@ const About = () => {
             <Box w={["100%", null, '50%']} color="white" mt={["40px", null, 0]}>
                 <Text data-aos="fade-left" data-aos-duration="2000" lineHeight="25px" fontSize="14px" fontFamily="DM Sans,sans-serif">
                     I am a passionate and enthusiastic software developer who enjoys creating things that live on the web. 
-                   I'm a frontend web developer with experience focused on crafting great web experiences with pixel 
-                   perfect design. I enjoy taking complex problem and turning them into sleek, beautiful and simple user interfaces.
+                   I'm a web developer with experience focused on crafting great web experiences with pixel 
+                   perfect design and also building the server side of applications. I enjoy taking complex problem and turning them into amazing products that helps to solve users problems.
                   I enjoy the process of creation and constantly learning better ways of doing things everyday.
                 </Text>
                 <Text data-aos="fade-right" data-aos-duration="2000" lineHeight="25px" fontSize="14px" fontFamily="DM Sans,sans-serif" m="20px 0">
@@ -32,8 +32,7 @@ const About = () => {
                     community so I'm constantly using my technical knowledge to do that.
                 </Text>
                 <Text data-aos="fade-up" data-aos-duration="2000" lineHeight="25px" fontSize="14px" fontFamily="DM Sans,sans-serif">
-                  Currently I'm on the journey to becoming a full stack Developer where I can 
-                  work with more technologies and carry on more projects.
+                  Currently I'm on the journey to learning more technologies so I can contribute in more projects and compete globally.
                 </Text>
             </Box>
         </Flex>
