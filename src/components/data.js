@@ -7,6 +7,7 @@ import tracker from "../images/tracker-website.JPG"
 import amnid from "../images/amnid-website.JPG"
 import blog from "../images/blog-api.jpg"
 import kanban from "../images/Kanban-app.JPG"
+import chatapp from "../images/chatchord.JPG"
 
 export const data = [
   {
@@ -27,6 +28,15 @@ export const data = [
      documentation:"https://documenter.getpostman.com/view/19697282/2s8Z73zWpp",
      tools: `Nodejs + express + Passport + MongoDb`
     },
+    {
+      id: "11",
+       title :"CharCord Messaging Bot" ,
+       img: chatapp,
+       content :`Charcord is a restaurant bolt messaging app that allows users make orders at a restaurant, view previous orders, display orders`,
+       github:"https://github.com/Simplystina/KanBan-App-API",
+       live:"https://charcord-chat-app.onrender.com/",
+       tools: `Nodejs + express + VanillaJs + MongoDb + Socketio`
+      },
     {
         id: "1",
       title :"Tracker" ,
@@ -66,6 +76,7 @@ export const data = [
         content:"A debt managing app that helps users to manage their debt",
         live:"https://debtfix.netlify.app/",
         github: "https://github.com/Simplystina/AWI-Hackathon",
+        tools: `React + Django + Chakra UI` 
       },
 
     {
@@ -74,7 +85,8 @@ export const data = [
         img: movie,
         content: `A fully responsive web application for finding and saving information about your favorite movies and TV shows.`,
         live: "https://movio-webapp.netlify.app/",
-        github: "https://github.com/Simplystina/movie-website"
+        github: "https://github.com/Simplystina/movie-website",
+        tools: `React + CSS Animations + API's`
     },
     {
         id: "6",
