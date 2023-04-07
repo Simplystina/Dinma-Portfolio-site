@@ -8,6 +8,7 @@ import amnid from "../images/amnid-website.JPG"
 import blog from "../images/blog-api.jpg"
 import kanban from "../images/Kanban-app.JPG"
 import chatapp from "../images/chatchord.JPG"
+import events from "../images/event.jpg"
 
 export const data = [
   {
@@ -23,11 +24,20 @@ export const data = [
     id: "10",
      title :"KanBan Task API" ,
      img: kanban,
-     content :`Kanban is a web app that allow users to create boards for tasks, create tasks inside each board, keep track and update task status, add registered collaborators to a board to contribute to a task, allow authentication of users and authorization of authenticated users.`,
+     content :`Kanban board is a tool that let users manage their work properly at both personal or organizational level`,
      github:"https://github.com/Simplystina/KanBan-App-API",
-     documentation:"https://documenter.getpostman.com/view/19697282/2s8Z73zWpp",
+     documentation:"https://documenter.getpostman.com/view/19697282/2s93RZKoeD",
      tools: `Nodejs + express + Passport + MongoDb`
     },
+    {
+      id: "13",
+       title :"ShowCase API" ,
+       img: events,
+       content :`This is an event ticketing API service.`,
+       github:"https://github.com/Simplystina/Showcase_API",
+       documentation:"https://documenter.getpostman.com/view/19697282/2s93RZKoeD",
+       tools: `Nodejs + express + PayStack API + MongoDb`
+      },
     {
       id: "11",
        title :"CharCord Messaging Bot" ,
@@ -42,7 +52,7 @@ export const data = [
       title :"Tracker" ,
       img:tracker,
       content :`A valuable tool to analyse submitted 
-      applications that help users save and keep track 
+      applications. It helps users save and keep track 
       of their pending job applications.`,
       github:"https://github.com/Simplystina/tracker-app",
       live:"https://tracker-webapp.netlify.app/",
@@ -52,7 +62,7 @@ export const data = [
       id: "2",
     title :"AmNiD" ,
     img:amnid,
-    content :`AmNiD is an online platform that utilizes the identity pass API to guarantee the security of online transactions, by making it possible for customers to have their identity verified, search for verified vendors using an id, rate vendor and give reviews.
+    content :`AmNiD is an online platform that utilizes the identity pass API to guarantee the security of online transactions.
     `,
     github:"https://github.com/Simplystina/Prembly-Hack-AmNiD-App",
     live:"https://amnid.vercel.app/",
