@@ -26,7 +26,7 @@ export const data = [
      img: kanban,
      content :`Kanban board is a tool that let users manage their work properly at both personal or organizational level`,
      github:"https://github.com/Simplystina/KanBan-App-API",
-     documentation:"https://documenter.getpostman.com/view/19697282/2s93RZKoeD",
+     live: "https://kanban-sage.vercel.app/",
      tools: `Nodejs + express + Passport + MongoDb`
     },
     {
