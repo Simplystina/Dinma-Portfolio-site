@@ -9,8 +9,18 @@ import blog from "../images/blog-api.jpg"
 import kanban from "../images/Kanban-app.JPG"
 import chatapp from "../images/chatchord.JPG"
 import events from "../images/event.jpg"
+import linkurl from "../images/linkurl.JPG"
 
 export const data = [
+  {
+    id: "15",
+    title: "LinkURL",
+    img: linkurl,
+    content: `LinkURL is a webapp that shortens url, generates url code of shortened urls and shows the analysis of the the generated urls`,
+    github: "https://github.com/Simplystina/url-shortener/tree/master",
+    live: "https://linkurl.netlify.app/",
+    tools : `Nodejs + Nodemailer + Mongodb + QrCodeGenerator`
+  },
   {
       id: "9",
      title :"Blog API" ,
