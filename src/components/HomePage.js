@@ -77,7 +77,7 @@ const HomePage = () => {
           data-aos-duration="1000"
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/drive/folders/1nq8zUGil3xba4N1iGV1JAeB81xXcrXmp?usp=sharing"
+          href="https://drive.google.com/file/d/1SCo37_8X1KaX25RiDYDPm61Fy1HY_nkb/view?usp=sharing"
         >
           <Button
             borderRadius={[5, 10]}
