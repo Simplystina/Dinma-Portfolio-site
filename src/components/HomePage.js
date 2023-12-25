@@ -39,7 +39,7 @@ const HomePage = () => {
             textTransform: "none",
           }}
         >
-          fondly called Dinma
+          fondly called Dinma baby
         </span>
       </Text>
 
@@ -51,6 +51,7 @@ const HomePage = () => {
       <Text fontSize={[10, 12, 14]} textAlign={["left", "center"]} color="grey">
         Full Stack Developer | Women in Tech Advocate | Software Engineer
       </Text>
+
       <HStack
         className="button-container"
         m={["30px 0 10px 0", "40px 0 30px 0"]}
@@ -77,7 +78,7 @@ const HomePage = () => {
           data-aos-duration="1000"
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1SCo37_8X1KaX25RiDYDPm61Fy1HY_nkb/view?usp=sharing"
+          href="https://flowcv.com/resume/srtnq7j4w3"
         >
           <Button
             borderRadius={[5, 10]}
