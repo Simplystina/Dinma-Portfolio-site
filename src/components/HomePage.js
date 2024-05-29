@@ -78,7 +78,7 @@ const HomePage = () => {
           data-aos-duration="1000"
           target="_blank"
           rel="noreferrer"
-          href="https://flowcv.com/resume/srtnq7j4w3"
+          href="https://flowcv.com/resume/kg5o11j4mb"
         >
           <Button
             borderRadius={[5, 10]}
