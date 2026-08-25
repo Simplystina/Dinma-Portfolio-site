@@ -1,5 +1,5 @@
 import {Flex } from '@chakra-ui/react'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {Routes, Route, BrowserRouter as Router} from 'react-router-dom'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -12,10 +12,11 @@ import Home from './Pages/Home'
 const App = () => {
 
   const [loading, setLoading] = useState(true)
-  setTimeout(
-    () => setLoading(false), 
-    3000
-  );
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 3000);
+    return () => clearTimeout(timer);
+  }, []);
 
   if (loading){
     return(

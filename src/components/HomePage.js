@@ -1,6 +1,7 @@
 import React from 'react'
 import {Box, Button, HStack, Text} from "@chakra-ui/react"
 import {BsTwitter, BsGithub, BsLinkedin} from "react-icons/bs"
+import { RESUME_URL } from "../config"
 
 const HomePage = () => {
 
@@ -45,7 +46,7 @@ const HomePage = () => {
 
       <Box className="typing-slider">
         <p>I. am. a. Backend. Developer.</p>
-        <p>I. am. a. Frontend. Developer.</p>
+        <p>I. am. a. Fullstack. Developer.</p>
         <p>iBuild server and pixel perfect applications</p>
       </Box>
       <Text fontSize={[10, 12, 14]} textAlign={["left", "center"]} color="grey">
@@ -78,7 +79,7 @@ const HomePage = () => {
           data-aos-duration="1000"
           target="_blank"
           rel="noreferrer"
-          href="https://flowcv.com/resume/kg5o11j4mb"
+          href={RESUME_URL}
         >
           <Button
             borderRadius={[5, 10]}

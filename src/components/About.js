@@ -20,19 +20,14 @@ const About = () => {
                 <Img w="100%" borderRadius={10} h="100%" objectFit="cover" src={pic} alt="my_picture"/>
             </Box>
             <Box w={["100%", null, '50%']} color="white" mt={["40px", null, 0]}>
-                <Text data-aos="fade-left" data-aos-duration="2000" lineHeight="25px" fontSize="14px" fontFamily="DM Sans,sans-serif">
-                    I am a passionate and enthusiastic software developer who enjoys creating things that live on the web. 
-                   I'm a web developer with experience focused on crafting great web experiences with pixel 
-                   perfect design and also building the server side of applications. I enjoy taking complex problem and turning them into amazing products that helps to solve users problems.
-                  I enjoy the process of creation and constantly learning better ways of doing things everyday.
+                <Text data-aos="fade-left" data-aos-duration="600" lineHeight="25px" fontSize="14px" fontFamily="DM Sans,sans-serif">
+                    I'm a passionate and detail-oriented <Text as="span" fontWeight="bold">fullstack developer with a backend focus</Text> — I enjoy crafting the systems that power great web experiences as much as the pixel-perfect interfaces that bring them to life. My core strength is designing robust APIs, scalable server-side architecture, and reliable data layers, with hands-on experience in <Text as="span" fontWeight="bold">JavaScript, NestJS, and Express.js</Text> (and currently expanding into <Text as="span" fontWeight="bold">Java</Text>). I am also comfortable shipping clean, polished UI when a project calls for it. I enjoy taking complex problems and turning them into well-architected products that solve real user needs.
                 </Text>
-                <Text data-aos="fade-right" data-aos-duration="2000" lineHeight="25px" fontSize="14px" fontFamily="DM Sans,sans-serif" m="20px 0">
-                     I'm a woman in tech Advocate. 
-                    I love volunteering so I spend alot of my time volunteering with organisations as a lead and as an active contributor. I believe so much in giving back to the
-                    community so I'm constantly using my technical knowledge to do that.
+                <Text data-aos="fade-right" data-aos-duration="600" lineHeight="25px" fontSize="14px" fontFamily="DM Sans,sans-serif" m="20px 0">
+                    I'm a Women in Tech advocate. I spend a lot of my time volunteering with organizations — both as a lead and an active contributor — because I believe deeply in giving back to the community and using my technical knowledge to create opportunities for others.
                 </Text>
                 <Text lineHeight="25px" fontSize="14px" fontFamily="DM Sans,sans-serif">
-                  Currently I'm on the journey to learning more technologies so I can contribute in more projects and compete globally.
+                  Currently, I'm expanding my backend and systems knowledge further, so I can contribute to more ambitious projects and compete globally.
                 </Text>
             </Box>
         </Flex>

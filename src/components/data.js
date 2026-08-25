@@ -10,8 +10,18 @@ import kanban from "../images/Kanban-app.JPG"
 import chatapp from "../images/chatchord.JPG"
 import events from "../images/event.jpg"
 import linkurl from "../images/linkurl.JPG"
+import telemedicine from "../images/telemedicine.png"
 
 export const data = [
+  {
+    id: "16",
+    title: "Telemedicine",
+    img: telemedicine,
+    content: `A telemedicine platform that allows patients to book appointments and consult doctors online.`,
+    github: "https://github.com/Simplystina/telemedicin-backend",
+    live: "https://telemedicinae.netlify.app/",
+    tools: `Frontend: Vite + React + Zustand | Backend: Nodejs + Typescript + Postgres`
+  },
   {
     id: "15",
     title: "LinkURL",
@@ -53,7 +63,7 @@ export const data = [
        title :"CharCord Messaging Bot" ,
        img: chatapp,
        content :`Charcord is a restaurant bolt messaging app that allows users make orders at a restaurant, view previous orders, display orders`,
-       github:"https://github.com/Simplystina/KanBan-App-API",
+       github:"https://github.com/Simplystina/CharCord-",
        live:"https://charcord-chat-app.onrender.com/",
        tools: `Nodejs + express + VanillaJs + MongoDb + Socketio`
       },
